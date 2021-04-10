@@ -36,4 +36,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: defstudio/node-alpine-lts
+        tags: defstudio/node:alpine-lts
