@@ -4,7 +4,7 @@ name: node images publish
 on:
   push:
     branches: 
-      - master
+      - main
   
 
 jobs:
