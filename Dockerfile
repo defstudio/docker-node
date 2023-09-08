@@ -9,3 +9,4 @@ RUN chmod -R 777 /root/.npm
 
 RUN mkdir /root/.cache
 RUN chmod -R 777 /root/.cache
+
