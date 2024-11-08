@@ -10,3 +10,5 @@ RUN chmod -R 777 /root/.npm
 RUN mkdir /root/.cache
 RUN chmod -R 777 /root/.cache
 
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git
