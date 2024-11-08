@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 
 RUN apk update && \
-    apk add -y git
+    apk add git
 
     
 RUN mkdir /.npm
