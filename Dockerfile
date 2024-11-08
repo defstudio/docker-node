@@ -1,8 +1,8 @@
 FROM node:lts-alpine
 
 
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends git
+RUN apk update && \
+    apk add -y git
 
     
 RUN mkdir /.npm
