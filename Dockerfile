@@ -3,7 +3,8 @@ FROM node:lts-alpine
 
 RUN apk update && \
     apk add git
-
+    
+RUN git config --global --add safe.directory /var/www
     
 RUN mkdir /.npm
 RUN chmod -R 777 /.npm
