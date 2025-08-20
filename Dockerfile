@@ -16,5 +16,5 @@ RUN chmod -R 777 /root/.npm
 RUN mkdir /root/.cache
 RUN chmod -R 777 /root/.cache
 
-RUN echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+RUN echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
 
